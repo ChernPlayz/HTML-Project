@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>HTML Project</title>
+	<link rel="icon" type="image/x-icon" href="Images/sakura icon.png">
+	<link rel="stylesheet" href="styles.css">
+
+	<!-- Fredoka Font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<h1 class="title">Japan 日本</h1>
+	<p class="title_sub">Explore More!<br> もっと探索しよう！</p>
+
+	<div class="container_main">
+		<button class="btn" data-topic="History" onclick="updateText('History'), onClickBtn('History')">
+			History<br> 歴史
+		</button>
+		<button class="btn" data-topic="Geography" onclick="updateText('Geography'), onClickBtn('Geography')">
+			Geography<br> 地理
+		</button>
+		<button class="btn" data-topic="Culture" onclick="updateText('Culture'), onClickBtn('Culture')">
+			Culture<br> 文化
+		</button>
+		<button class="btn" data-topic="Food" onclick="updateText('Food'), onClickBtn('Food')">
+			Food<br> 食べ物
+		</button>
+		<button class="btn" data-topic="Attractions" onclick="updateText('Attractions'), onClickBtn('Attractions')">
+			Attractions<br> 観光地
+		</button>
+	</div>
+
+	<div class="description">
+		
+	</div>
+
+	<script src="script.js"></script>
+</body>
+
+</html>
