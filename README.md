@@ -1,2 +1,3 @@
 # HTML-Project
-It was fun :D
+I had fun doing this lol
+Thks for seeing this :)
